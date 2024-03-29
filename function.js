@@ -1,0 +1,23 @@
+const num =[1,5,3,8,6,7,4];
+function numSort(){
+    num.sort()
+    return num
+}
+console.log(numSort(num))
+
+
+
+var a =[1,-3,5,-6,-8]
+function arr(){
+    let nega = a.filter((element)=>
+    element<0);
+    let post = a.filter((element)=>
+    element<0);
+    let zero =a.filter((element)=>
+    element==0);
+    return{
+        nega:negative
+        post:postive
+        
+    }
+}
